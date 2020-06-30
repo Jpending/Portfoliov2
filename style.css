@@ -1,0 +1,190 @@
+
+
+header{
+  background-color: rgba(127, 255, 212, 0.2);
+  margin-bottom: 40px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+header h1{
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  font-family: Arial;
+  font-size: 65px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  font-family: Arial;
+  font-size: 30px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+body{
+  background: linear-gradient( to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("images/ocean.jpg");
+  font: Arial;
+  color: lavenderblush;
+  text-align: center;
+  margin: 0;
+
+  }
+
+  p, a {
+    font: Arial;
+  }
+
+  h2{
+    font: Arial;
+  }
+
+ul{
+  font: Arial;
+}
+
+ol{
+  list-style-type: lower-roman;
+  text-align: justify;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 0px 30px 0px;
+}
+
+
+main {
+  font: 20px Arial;
+}
+
+.subtitle{
+  color: lightcyan;
+}
+
+.group{
+  display: flex;
+  flex-flow: column nowrap ;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+footer{
+  font:20px Arial bold;
+  text-transform: uppercase;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+.item{
+  flex: 1;
+  margin-bottom:10px;
+}
+
+.logo {
+  flex:1;
+  width: 10%;
+}
+
+form input {
+  width: 120px;
+  margin: 0 30px 0 30px;
+}
+
+form textarea{
+  width: 200px;
+}
+
+/* unvisited link */
+a:link {
+  color: fuchsia;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(101, 47, 201);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+/* Line breaks */
+hr {
+  display: block;
+   margin:5%;
+  border-style: inset;
+  border-width: -10px;
+}
+
+
+
+/*Media query andd desktop CSS*/
+
+
+@media all and (min-width: 800px) {
+  .group {
+    display: flex;
+    flex-flow: row nowrap ;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    /*position:fixed;
+    transition: top 0.3s;  May implement when i can: transition effect when sliding down (and up) */
+  }
+
+
+  header h1 {
+    margin: 14px 0;
+    padding-top: 0;
+  }
+
+  header nav{
+    margin-top: 8px;
+    justify-content: space-evenly;
+  }
+
+  header nav ul li a:hover {
+    color: #bdbdbd;
+  }
+
+  section {
+    padding: 0 10%;
+  }
+
+  .logo {
+    flex: 1;
+    padding-left: 0;
+  }
+
+}
