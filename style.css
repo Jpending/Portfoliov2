@@ -80,6 +80,10 @@ main {
   color: lightcyan;
 }
 
+.hardtosee{
+background-color: rgba(117, 117, 117, 0.2);
+}
+
 .group{
   display: flex;
   flex-flow: column nowrap ;
