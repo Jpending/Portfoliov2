@@ -159,6 +159,7 @@ hr {
   header {
     width: 100%;
     display: flex;
+    flex-flow: column;
     justify-content: space-evenly;
     padding: 0px;
     /*position:fixed;
@@ -173,6 +174,11 @@ hr {
 
   header nav{
     margin-top: 8px;
+    flex-flow: column;
+    justify-content: space-evenly;
+  }
+  header nav ul {
+    flex-flow: row;
     justify-content: space-evenly;
   }
 
