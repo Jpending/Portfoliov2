@@ -190,7 +190,7 @@ hr {
 
   header nav{
     margin-top: 8px;
-    flex-flow: column;
+    flex-flow: row;
     justify-content: space-evenly;
   }
   header nav ul {
@@ -200,7 +200,7 @@ hr {
 
   header nav ul li a:hover {
     color: #bdbdbd;
-  }
+  } 
 
   section {
     padding: 0 10%;
