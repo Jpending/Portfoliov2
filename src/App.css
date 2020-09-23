@@ -1,11 +1,11 @@
-/* header{
+/* header {
   background-color: rgba(127, 255, 212, 0.2);
   margin-bottom: 40px;
   width: 100%;
   justify-content: space-evenly;
 }
 
-header h1{
+header h1 {
   color: #fff;
   text-align: center;
   margin: 0;
@@ -40,28 +40,29 @@ header nav ul li:last-child a {
   margin-right: 0;
 }
 
-body{
-  background: linear-gradient( to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("images/ocean.jpg");
+body {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("images/ocean.jpg");
   font: Arial;
   color: lavenderblush;
   text-align: center;
   margin: 0;
 
-  }
+}
 
-  p, a {
-    font: Arial;
-  }
-
-  h2{
-    font: Arial;
-  }
-
-ul{
+p,
+a {
   font: Arial;
 }
 
-ol{
+h2 {
+  font: Arial;
+}
+
+ul {
+  font: Arial;
+}
+
+ol {
   list-style-type: lower-roman;
   text-align: justify;
   font-size: 25px;
@@ -74,20 +75,20 @@ main {
   font: 20px Arial;
 }
 
-.subtitle{
+.subtitle {
   color: lightcyan;
 }
 
-.hardtosee{
+.hardtosee {
   background-color: rgba(117, 117, 117, 0.6);
   text-align: left;
 }
 
-.project{
+.project {
   text-align: left;
 }
 
-.projlink{
+.projlink {
   text-align: center;
   margin: 0;
   padding-top: 20px;
@@ -95,15 +96,15 @@ main {
   font-size: 40px;
 }
 
-.group{
+.group {
   display: flex;
-  flex-flow: column nowrap ;
+  flex-flow: column nowrap;
   margin-bottom: 50px;
   justify-content: center;
 }
 
-footer{
-  font:20px Arial bold;
+footer {
+  font: 20px Arial bold;
   text-transform: uppercase;
   display: flex;
   flex-flow: column nowrap;
@@ -111,13 +112,13 @@ footer{
   text-align: center;
 }
 
-.item{
+.item {
   flex: 1;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .logo {
-  flex:1;
+  flex: 1;
   width: 10%;
 }
 
@@ -126,47 +127,47 @@ form input {
   margin: 0 30px 0 30px;
 }
 
-form textarea{
+form textarea {
   width: 200px;
 }
 
 /* unvisited link */
-a:link {
+/* a:link {
   color: fuchsia;
   text-decoration: none;
-}
+} */
 
 /* visited link */
-a:visited {
+/* a:visited {
   color: rgb(101, 47, 201);
   text-decoration: none;
-}
+} */
 
 /* mouse over link */
-a:hover {
+/* a:hover {
   color: hotpink;
   text-decoration: none;
-}
+} */
 
 /* selected link */
-a:active {
+/* a:active {
   color: blue;
   text-decoration: none;
-}
+} */
 
 /* Line breaks */
-hr {
+/* hr {
   display: block;
   margin: 5%;
   border-style: inset;
   border-width: -10px;
-}
+} */
 
 
 
 /*Media query andd desktop CSS*/
 
-
+/*
 @media all and (min-width: 800px) {
   .group {
     display: flex;
@@ -178,10 +179,10 @@ hr {
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
-    padding: 0px;
-    /*position:fixed;
+    padding: 0px; */
+/*position:fixed;
     transition: top 0.3s;  May implement when i can: transition effect when sliding down (and up) */
-  }
+/* }
 
 
   header h1 {
@@ -213,6 +214,4 @@ hr {
     padding-left: 0;
   }
 
-}
-
-*/
+} */
