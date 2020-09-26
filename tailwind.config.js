@@ -1,4 +1,4 @@
-const { default: src } = require("*.bmp")
+//const { default: src } = require("*.bmp")
 
 module.exports = {
   purge: [
@@ -11,7 +11,12 @@ module.exports = {
   theme: {
     extend: {},
   },
-  variants: {},
+  variants: {
+    backgroundAttachment: [ 'responsive', 'hover', 'focus' ],
+    gradientColorStops: [ 'responsive', 'hover', 'focus', 'active', 'group-hover' ],
+    animation: [ 'responsive', 'hover', 'focus' ],
+    outline: [ 'responsive', 'focus', 'hover', 'active' ],
+  },
   plugins: [],
-  'background-image': src('./src/images/ocean.jpg'),
+  'background-image': 'src(./src/images/ocean.jpg)'
 }
