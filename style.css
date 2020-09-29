@@ -129,32 +129,37 @@ form input {
 form textarea{
   width: 200px;
 }
-
+/*
 /* unvisited link */
+/*
 a:link {
   color: fuchsia;
   text-decoration: none;
 }
 
 /* visited link */
+/*
 a:visited {
   color: rgb(101, 47, 201);
   text-decoration: none;
 }
 
 /* mouse over link */
+/*
 a:hover {
   color: hotpink;
   text-decoration: none;
 }
 
 /* selected link */
+/*
 a:active {
   color: blue;
   text-decoration: none;
 }
 
 /* Line breaks */
+/*
 hr {
   display: block;
   margin: 5%;
@@ -165,7 +170,7 @@ hr {
 
 
 /*Media query andd desktop CSS*/
-
+/*
 
 @media all and (min-width: 800px) {
   .group {
@@ -179,8 +184,8 @@ hr {
     flex-flow: column;
     justify-content: space-evenly;
     padding: 0px;
-    /*position:fixed;
-    transition: top 0.3s;  May implement when i can: transition effect when sliding down (and up) */
+    position:fixed;
+    transition: top 0.3s;  May implement when i can: transition effect when sliding down (and up)
   }
 
 
