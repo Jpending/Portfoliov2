@@ -2,8 +2,8 @@ export default {
   projects: [
     {
       title: 'Endless Encounters',
-      desc: `A game myself and some friends created using oldd text baseeddd RPGs as a guideline. \n
-      Our long termm goals include; PVP, crafting, and multiplayer.`,
+      desc: `A game myself and some friends created using old text based RPGs as a guideline. \n
+      Our long term goals include; PVP, crafting, and multiplayer.`,
       image: './images/endless_ss.png',
       link: `https://endless-encounters-chi.vercel.app/`
     },
