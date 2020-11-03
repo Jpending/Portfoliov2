@@ -16,7 +16,7 @@ export default {
 
     {
       title: 'Ironshade WoW',
-      desc: 'I am currently working on modifying a classic WoW server and client to implement some custom content. This has become a major consumer of my time, but it is also giving me a ton of experience in readding and understanding an existing code base. I have so far immplemented new race/class combinations, as well as several custom spells. Some of my goals include restoring content cut from the original game.',
+      desc: 'I am currently working on modifying a classic WoW server and client to implement some custom content. This has become a major consumer of my time, but it is also giving me a ton of experience in reading and understanding an existing code base. I have so far implemented new race/class combinations, as well as several custom spells. Some of my goals include restoring content cut from the original game.',
       image: './images/ironshadewow_ss.jpeg',
       link: `https://github.com/Jpending/wow-server`
     },

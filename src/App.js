@@ -123,7 +123,7 @@ export default class App extends React.Component {
           </section>
 
           <section id="services" className="text-center rounded-tl-full rounded-lg shadow-b bg-gradient-to-br from-gray-300 via-white to-white md:mx-48">
-            <h2 className="text-boldest text-3xl tracking-widest mt-20" >Specialities:</h2>
+            <h2 className="text-boldest text-3xl tracking-widest mt-20" >Specialties:</h2>
             <div className="flex-row-reverse lg:p-40 justify-items-center rounded-br-full bg-gradient-to-br from-transparent via-transparent to-gray-300">
 
               <p className="flex-1 inline-block border-8 bg-white border-blue-400 rounded-md m-4 p-2 transition duration-700 ease-in-out transform hover:-translate-y-3 hover:scale-150">React.js</p>
