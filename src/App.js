@@ -95,7 +95,7 @@ export default class App extends React.Component {
             <hr />
             {/* <!-- non work interests --> */}
 
-            <div className="flex flex-row flex-wrap text-center mb-8">
+            <div className="flex flex-col sm:flex-row flex-wrap text-center mb-8">
               <div className="flex-initial min-w-full h-6 border border-b-none shadow-sm ">
                 <h2 className="text-bold tracking-widest">Interests Outside of Development</h2>
               </div>
@@ -109,7 +109,7 @@ export default class App extends React.Component {
               <div className="flex-1 flex  rounded border-4 border-gray-200 m-3 place-items-center shadow-lg bg-gradient-to-br from-transparent via-transparent to-blue-100">
                 <div className="max-w-sm w-full flex-1 lg:max-w-full lg:flexbg-gradient-to-br from-transparent via-transparent to-blue-100">
                   <img className="h-48 rounded-br-full border-4 border-white lg:h-auto min-w-0 lg:w-48 flex-none rounded-t lg:rounded-t-none lg:rounded-l overflow-hidden" src={require('./images/wow.jpg')} alt="World of Warcraft Logo" />
-                  <p className="text-gray-900 font-bold text-lg mb-2">Video games like World of Warcraft and recently CK3.</p>
+                  <p className="text-gray-900 font-bold text-lg mb-2">Games: World of Warcraft, CK3, Pokemon Sword.</p>
                 </div>
               </div>
               <div className="flex-1 flex  rounded border-4 border-gray-200 m-3 place-items-center shadow-lg bg-gradient-to-br from-transparent via-transparent to-blue-100">
@@ -127,12 +127,14 @@ export default class App extends React.Component {
             <div className="flex-row-reverse lg:p-40 justify-items-center rounded-br-full bg-gradient-to-br from-transparent via-transparent to-gray-300">
 
               <p className="flex-1 inline-block border-8 bg-white border-blue-400 rounded-md m-4 p-2 transition duration-700 ease-in-out transform hover:-translate-y-3 hover:scale-150">React.js</p>
+              <p className="flex-1 inline-block border-8 bg-white border-orange-700 rounded-md m-4 p-2 transition duration-700 ease-in-out transform hover:-translate-y-3 hover:scale-150">Firebase</p>
               <p className="flex-1 inline-block border-8 bg-white border-purple-600 rounded-md m-4 p-2 transition duration-700 ease-in-out transform hover:-translate-y-3 hover:scale-150">Javascript ES6/ES7</p>
               <p className="flex-1 inline-block border-8 bg-white border-yellow-400 rounded-md m-4 p-2 transition duration-700 ease-in-out transform hover:-translate-y-3 hover:scale-150">Typescript</p>
               <p className="flex-1 inline-block border-8 bg-white border-teal-400 rounded-md m-4 p-2 transition duration-700 ease-in-out transform hover:-translate-y-3 hover:scale-150">Tailwind.css</p>
               <p className="flex-1 inline-block border-8 bg-white border-green-600 rounded-md m-4 p-2 transition duration-700 ease-in-out transform hover:-translate-y-3 hover:scale-150">Node.js</p>
               <p className="flex-1 inline-block border-8 bg-white border-blue-700 rounded-md m-4 p-2 transition duration-700 ease-in-out transform hover:-translate-y-3 hover:scale-150">Express</p>
               <p className="flex-1 inline-block border-8 bg-white border-orange-400 rounded-md m-4 p-2 transition duration-700 ease-in-out transform hover:-translate-y-3 hover:scale-150">PostgreSQL</p>
+              <p className="flex-1 inline-block border-8 bg-white border-yellow-400 rounded-md m-4 p-2 transition duration-700 ease-in-out transform hover:-translate-y-3 hover:scale-150">NoSQL</p>
               <p className="flex-1 inline-block border-8 bg-white border-green-300 rounded-md m-4 p-2 transition duration-700 ease-in-out transform hover:-translate-y-3 hover:scale-150">HeidiSQL</p>
               <p className="flex-1 inline-block border-8 bg-white border-red-700 rounded-md m-4 p-2 transition duration-700 ease-in-out transform hover:-translate-y-3 hover:scale-150">MySQL</p>
 
