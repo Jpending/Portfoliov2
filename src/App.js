@@ -27,14 +27,15 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div className="App min-w-full font-mono grid grid-cols-1 gap-0">
-        <header id="navbar" className="cursor-pointer bg-clip-border bg-center bg-fixed min-w-full">
-          <nav className="bg-gradient-to-top from-gray-300 to-transparent min-w-full">
-            <div className="text-center min-w-full">
+      <div className="App w-screen sm:w-full font-mono grid grid-cols-1 gap-0">
+        <header id="navbar" className="cursor-pointer bg-clip-border bg-center bg-fixed w-full">
+          <nav className="bg-gradient-to-top from-gray-300 to-transparent">
+            <div className="text-center">
               <span className="text-white pb-10 font-extrabold  font-mono text-4xl tracking-widest" >
                 John D Pendergast</span>
             </div>
-            <div id="menu" className="text-xl text-center font-bold min-w-full flex flex-row md:flex-row-reverse lg:flex-row-reverse xl:flex-row">
+            <div id="menu" className="sm:text-xl text-center font-bold min-w-full flex
+            flex-row md:flex-row-reverse lg:flex-row-reverse xl:flex-row">
 
               <div className="mx-2 flex-1 rounded-t-lg hover:bg-red-600 hover:bg-opacity-50">
                 <a href="#about" className="text-white tracking-wide">
@@ -96,8 +97,8 @@ export default class App extends React.Component {
             {/* <!-- non work interests --> */}
 
             <div className="flex flex-col sm:flex-row flex-wrap text-center mb-8">
-              <div className="flex-initial min-w-full h-6 border border-b-none shadow-sm ">
-                <h2 className="text-bold tracking-widest">Interests Outside of Development</h2>
+              <div className="flex-initial min-w-full h-6 border border-b-none shadow-sm mb-2">
+                <h2 className="text-bold tracking-widest mb-1">Interests Outside of Development</h2>
               </div>
               <div className="flex-1 flex rounded border-4 border-gray-200 m-3 place-items-center shadow-lg bg-gradient-to-br from-transparent via-transparent to-blue-100">
                 <div className="max-w-sm w-full flex-1 lg:max-w-full lg:flex ">
