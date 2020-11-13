@@ -17,7 +17,7 @@ export default {
       Currently only NJ games have been implemented.\n
       Users can: create an account in order to generate numbers, save their games played, lucky numbers see game rules/how to play and see recent winning numbers.\n
       This is for: People who play lotto. \n
-      Why: People like to use special numbers in lotto, but dont care about the any remaining numbers to fill out.`,
+      Why: People like to use special numbers in lotto, but don't care about any remaining numbers they need to fill out.`,
       image: './images/luckypick_ss.jpg',
       link: `https://jpending.github.io/Lucky-Pick/`,
       repo: `https://github.com/Jpending/Lucky-Pick`,
@@ -31,7 +31,7 @@ export default {
         I have so far implemented new race/class combinations, as well as several custom spells.\n
         Some of my goals include restoring content cut from the original game.
         This is for: Mostly myself and friends.\n
-        Why: FOr fun, and to learn how the systems I enjoy are created.`,
+        Why: For fun, and to learn how the systems I enjoy are created.`,
       image: './images/ironshadewow_ss.jpeg',
       link: `https://github.com/Jpending/wow-server`,
       repo: `https://github.com/Jpending/wow-server`,
@@ -41,7 +41,10 @@ export default {
     {
       title: 'JURPS',
       desc: `An app where users can go to in order to create custom characters in custom races, classes, time periods, or what have you.\n
-       Once on the site you can log in using the credentials dunder and mifflin. \n
+       Once on the site you can log in using the credentials\n
+       username: dunder\n
+       and\n
+       password: mifflin. \n
        From there feel free to poke around, and make something, delete something or edit something. \n
        Registration for users is also working, so you can try that if you like.\n
        This is for: People looking  to manage character sheets in tabletop RPGs.\n

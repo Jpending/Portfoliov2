@@ -156,7 +156,7 @@ export default class App extends React.Component {
           </section>
 
 
-          <section id="contact" className="w-screen align-items-center grid grid-rows-6 grid-cols-5 gap-4">
+          <section className="w-screen align-items-center grid grid-rows-6 grid-cols-5 gap-4">
 
             <div className="text-start font-black tracking-widest text-3xl z-40  xs:font-thin md:tracking-wide row-start-1 row-span-1 col-start-2 col-span-2 pt-10">
               <h2 className="bg-opacity-50 bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-blue-200" >Send me a message:</h2>
@@ -209,7 +209,7 @@ export default class App extends React.Component {
         </main>
         <hr />
 
-        <footer className="cursor-pointer block text-center mt-1 ">
+        <footer id="contact" className="cursor-pointer block text-center mt-1 ">
 
           <div className="bg-gray-200 rounded-t-lg pt-5">
 
