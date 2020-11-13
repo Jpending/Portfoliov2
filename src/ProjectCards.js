@@ -15,6 +15,8 @@ export default function ProjectCards(proj) {
 
           <div className="text-blue-600 font-bold underline py-1 text-xl mb-2"><a target="blank" href={proj.proj.link}>Link:{proj.proj.title}</a></div>
           <p className="text-gray-700 text-base">{proj.proj.desc}</p>
+          <p>{proj.proj.for}</p>
+          <p>{proj.proj.why}</p>
           <h4>Tech Used:</h4>
           <p>{proj.proj.tech}</p>
           <div className="text-blue-600 font-bold underline py-1 text-xl mb-2"><a target="blank" href={proj.proj.repo}>GitHub Repo</a></div>
