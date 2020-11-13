@@ -69,11 +69,13 @@ export default class App extends React.Component {
             <div className="p-1 min-w-full mb-10">
               <div className="item bg-blue-100 rounded border-4 border-gray-200 min-w-full">
                 <h2 className="font-bold tracking-widest py-2"> A little bit about me...</h2>
-                <p className="font-sans">My name is John D Pendergast.<br />
-`                I am a web developer living in Sayreville, NJ with my partner and our amazing dog, Ninja. \n I have an
-                extensive work history in residential and commercial construction, as well as renovation project management. I
-                believe this gives my code the advantage of having aspects of being built like a home; that is, from the
-            foundations to the finishing touches.`</p>
+                <p className="font-sans">My name is John D Pendergast.
+                <br />
+                I am a web developer living in Sayreville, NJ with my partner and our amazing dog, Ninja.
+                I have an extensive work history in residential and commercial construction, as well as renovation project management.
+                This has led to a wide variety of the soft skills required in any industry, from teamwork to effective and concise communication.
+                I believe this colors how I code. I like to start with the overall frame for my application, then code the smaller components in order of complexity, as one would frame a wall, wire it for power, run lines for water/ HVAC, and Data/Communications lines.
+                This has also shown me how to communicate with and work as part of a team to build something greater than the individual part I am given.</p>
               </div>
 
               <hr className="border-2 border-white py-4" />
@@ -81,16 +83,16 @@ export default class App extends React.Component {
               {/* <!-- why i like development --> */}
               <div className="item bg-blue-100 rounded border-4 border-gray-200">
                 <h2 className="font-bold tracking-widest py-2" >Why web development?</h2>
-                <p className="font-sans">  I've been infatuated with the internet since we had our first dial-up connection. Everything about
-                the
-                internet endlessly fascinates me; from the free sharing of information and entertainment, to video games with
-                friends,
-                or
-                the bottomless YouTube holes that can eat up an entire day's productivity! However the collaborative nature of the
-                internet is
-                what really excites me, I love talking with others, and working together to create something big or small. I
-                believe
-          that even a small group of dedicated individuals can accomplish almost anything online!</p>
+                <p className="font-sans">
+                  I've been infatuated with the internet since we had our first dial-up connection.
+                  Everything about the internet endlessly fascinates me;
+                  from the free sharing of information and entertainment, to video games with friends,
+                  or the bottomless YouTube holes that can eat up an entire day's productivity!
+                  However the collaborative nature of the internet is
+                  what really excites me, I love talking with others, and working together to create something big or small. I
+                  believe that even a small group of dedicated people can build anything for the web,
+                  and will likely change the way our lives work.
+                For examples of this you need only open your phone and imagine how different our daily lives would be without it.</p>
               </div>
             </div>
             <hr />
