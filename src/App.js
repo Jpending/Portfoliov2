@@ -38,22 +38,22 @@ export default class App extends React.Component {
             flex-row md:flex-row-reverse lg:flex-row-reverse xl:flex-row">
 
               <div className="mx-2 flex-1 rounded-t-lg hover:bg-red-600 hover:bg-opacity-50">
-                <a href="#about" className="text-white tracking-wide">
+                <a href="#about" className="text-white sm:tracking-wide">
                   About
                 </a>
               </div>
               <div className="mx-2 flex-1 rounded-t-lg hover:bg-red-600 hover:bg-opacity-50">
-                <a href="#services" className="text-white tracking-wide">
+                <a href="#services" className="text-white sm:tracking-wide">
                   Services
                 </a>
               </div>
               <div className="mx-2 flex-1 rounded-t-lg hover:bg-red-600 hover:bg-opacity-50">
-                <a href="#portfolio" className="text-white tracking-wide">
+                <a href="#portfolio" className="text-white sm:tracking-wide">
                   Portfolio
                 </a>
               </div>
               <div className="mx-2 flex-1 rounded-t-lg  hover:bg-red-600 hover:bg-opacity-50">
-                <a href="#contact" className="text-white tracking-wide ">
+                <a href="#contact" className="text-white sm:tracking-wide ">
                   Contact
                 </a>
               </div>
@@ -70,10 +70,10 @@ export default class App extends React.Component {
               <div className="item bg-blue-100 rounded border-4 border-gray-200 min-w-full">
                 <h2 className="font-bold tracking-widest py-2"> A little bit about me...</h2>
                 <p className="font-sans">My name is John D Pendergast.<br />
-                I am a web developer living in Sayreville, NJ with my partner and our amazing dog, Ninja. I have an
+`                I am a web developer living in Sayreville, NJ with my partner and our amazing dog, Ninja. \n I have an
                 extensive work history in residential and commercial construction, as well as renovation project management. I
                 believe this gives my code the advantage of having aspects of being built like a home; that is, from the
-            foundations to the finishing touches.</p>
+            foundations to the finishing touches.`</p>
               </div>
 
               <hr className="border-2 border-white py-4" />
@@ -145,7 +145,7 @@ export default class App extends React.Component {
 
 
           <section id="portfolio">
-            <h2 className="text-boldest text-3xl tracking-widest mt-20">Projects</h2>
+            <h2 className="text-boldest text-xl sm:text-3xl tracking-widest mt-20">Projects</h2>
             <div className="group project">
               <div className="flex flex-row  flex-wrap">
                 {this.renderProjectCards()}
