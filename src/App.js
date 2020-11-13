@@ -73,8 +73,8 @@ export default class App extends React.Component {
                 <br />
                 I am a web developer living in Sayreville, NJ with my partner and our amazing dog, Ninja.
                 I have an extensive work history in residential and commercial construction, as well as renovation project management.
-                This has led to a wide variety of the soft skills required in any industry, from teamwork to effective and concise communication.
-                I believe this colors how I code. I like to start with the overall frame for my application, then code the smaller components in order of complexity, as one would frame a wall, wire it for power, run lines for water/ HVAC, and Data/Communications lines.
+                This has led to a wide variety of the soft skills required in any industry and I also believe this colors how I code.
+                I like to start with the overall frame for my application, then code the smaller components in order of complexity, as one would frame a wall, wire it for power, run lines for water/ HVAC, and Data/Communications lines.
                 This has also shown me how to communicate with and work as part of a team to build something greater than the individual part I am given.</p>
               </div>
 
