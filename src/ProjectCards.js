@@ -13,7 +13,7 @@ export default function ProjectCards(proj) {
       <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
         <div className="mb-8">
 
-          <div className="text-blue-600 font-bold underline py-1 text-xl mb-2"><a target="blank" href={proj.proj.link}>Link:{proj.proj.title}</a></div>
+          <div className="text-blue-600 font-bold underline py-1 text-xl mb-2"><a target="blank" href={proj.proj.link}>Link: {proj.proj.title}</a></div>
           <p className="text-gray-700 text-base">{proj.proj.desc}</p>
           <p>{proj.proj.for}</p>
           <p>{proj.proj.why}</p>

@@ -86,7 +86,7 @@ export default class App extends React.Component {
                 <p className="font-sans">
                   I've been infatuated with the internet since we had our first dial-up connection.
                   Everything about the internet endlessly fascinates me;
-                  from the free sharing of information and entertainment, to video games with friends,
+                  from the free sharing of information and entertainment to video games with friends,
                   or the bottomless YouTube holes that can eat up an entire day's productivity!
                   However the collaborative nature of the internet is
                   what really excites me, I love talking with others, and working together to create something big or small. I
