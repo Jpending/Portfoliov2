@@ -74,7 +74,7 @@ export default class App extends React.Component {
                 I am a web developer living in Sayreville, NJ with my partner and our amazing dog, Ninja.
                 I have an extensive work history in residential and commercial construction, as well as renovation project management.
                 This has led to a wide variety of the soft skills required in any industry and I also believe this colors how I code.
-                I like to start with the overall frame for my application, then code the smaller components in order of complexity, as one would frame a wall, wire it for power, run lines for water/ HVAC, and Data/Communications lines.
+                I like to start with the overall frame for my application, then code the smaller components in order of complexity, as one would frame a wall, wire it for power, run lines for water/HVAC, and Data/Communications lines.
                 This has also shown me how to communicate with and work as part of a team to build something greater than the individual part I am given.</p>
               </div>
 
@@ -234,7 +234,7 @@ export default class App extends React.Component {
             <a href="https://github.com/Jpending" target="_blank" rel="noopener noreferrer" className="inline-block w-10 mr-5 "><img src={require("./images/github-logo.png")}
               alt="github" className="object-scale-down rounded-full transition-colors duration-700 hover:bg-green-400" /> </a>
           </div>
-          <div className="inline-block mx-4 rounded-t-lg text-xl hover:bg-red-600 hover:bg-opacity-50"> <a href="mailto:jpending.com">Or Send Me an Email by Clicking Here</a></div>
+          <div className="inline-block mx-4 rounded-t-lg text-xl hover:bg-red-600 hover:bg-opacity-50"> <a href="mailto:jpending@gmail.com">Or Send Me an Email by Clicking Here</a></div>
         </footer>
 
       </div >
